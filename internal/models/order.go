@@ -8,7 +8,7 @@ import (
 
 type Order struct {
 	gorm.Model
-	UserID     uint        `json:"user_id" gorm:"index"` // Внешний ключ к таблице User
+	UserID     uint        `json:"user_id" gorm:"index"` 
 	CreatedAt  time.Time   `json:"created_at"`
 	Status     string      `json:"status"`
 	OrderItems []OrderItem `json:"order_items"`
