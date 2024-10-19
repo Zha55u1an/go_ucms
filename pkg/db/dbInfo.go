@@ -4,7 +4,7 @@ const (
 	Host     = "localhost"
 	Port     = 5432
 	Username = "postgres"
-	Password = "Zhasulan2004"
+	Password = ""
 	Dbname   = "ucms"
 	TokenKey = "servertoken"
 	SSLMode  = "disable"
